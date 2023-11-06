@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form method="post" action="form.php">
+    <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email"><br><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">female</label><br>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">other</label><br><br>
+
+        <label for="city">City:</label><br>
+        <select id="city" name="city">
+            <option value="Select">Select</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Nagpur">Nagpur</option>
+            <option value="Pune">Pune</option>
+            <option value="Delhi">Delhi</option>
+        </select><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
